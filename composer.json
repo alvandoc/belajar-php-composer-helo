@@ -1,0 +1,17 @@
+{
+    "name": "fancode/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alfan",
+            "email": "alvan.doc@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload": {
+        "Fancode\\belajar\\" : "src/"
+    }
+}
