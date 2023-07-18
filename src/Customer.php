@@ -1,6 +1,6 @@
 <?php
 
-namespace Fancode\belajar;
+namespace Fancode;
 
 class Customer {
     public function __construct(private string $name)

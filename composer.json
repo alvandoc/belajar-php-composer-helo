@@ -2,6 +2,11 @@
     "name": "fancode/belajar-php-composer-hello",
     "description": "Library Composer Hello",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fancode\\" : "src/"
+        }
+    },
     "authors": [
         {
             "name": "Alfan",
@@ -9,9 +14,5 @@
         }
     ],
     "require": {
-        "php" : ">=8.0"
-    },
-    "autoload": {
-        "Fancode\\belajar\\" : "src/"
     }
 }
